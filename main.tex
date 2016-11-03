@@ -1,0 +1,83 @@
+\documentclass[11pt,a4paper]{book}
+\usepackage{chasqui}
+
+
+
+\newcommand{\myTIPTitle}{\includegraphics[width=8cm]{logo}}
+\newcommand{\myTIPSubtitle}{Chasqui: herramienta digital de comercialización para la Economía Social y Solidaria}
+
+\newcommand{\myTIPFirstAuthor}{\jorge}
+\newcommand{\myTIPSecondAuthor}{\damian}
+
+\newcommand{\myTIPSubject}{Chasqui: herramienta digital de comercialización para la Economía Social y Solidaria}
+\newcommand{\myTIPDirector}{María Nieves Dalponte A.}
+
+\input{chasqui-caratula}
+
+\pagestyle{fancy}
+\fancyhead{} % limpio la cabecera\nouppercase{\rightmark}
+
+
+%\renewcommand{\sectionmark}[1]{\markright{#1}{}}
+\fancyhead[L]{\nouppercase{\leftmark}}
+
+\fancyhead[R]{ \thepage}
+%\fancyhead[L]{\nouppercase{\leftmark \sectiontitle}}
+\fancyfoot[C]{\includegraphics[width=2cm]{UNQ-logo}}
+\fancyfoot[R]{}
+
+\begin{document}
+\makeCaratulaTIP
+
+\newpage
+
+\input{introduccion}
+\newpage
+
+\input{thanks}
+\newpage
+\tableofcontents
+
+\newpage
+\input{contexto}
+
+\newpage
+\input{arquitectura-funcionalidad}
+
+\newpage
+\input{investigacion-tecnologica}
+
+\newpage
+\input{evaluacion}
+
+\appendix
+%\input{arquitecturasQ}
+%\input{howto}
+%\input{erroresComunes}
+
+\newpage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{thebibliography}{9}
+
+\bibitem{Pastore} Rodolfo  E. Pastore, \emph{Un panorama del resurgimiento de la economía social y solidaria en la Argentina}, octava edició, Editorial Prentice Hall, 2010.
+
+\bibitem{Pournelle} Jerry Pournelle, \emph{1001 Computer Words You Need to Know},  Oxford University Press, 2004
+
+
+\end{thebibliography}
+
+\end{document}
+
+
+
+
+
+[1] http://www.nosolousabilidad.com/articulos/softwarelibre.htm
+[2] http://www.fsf.org/
+[3] , 
+[4] https://es.wikipedia.org/wiki/Accesibilidad
+[5] https://es.wikipedia.org/wiki/Android
+[6] https://www.artima.com/weblogs/viewpost.jsp?thread=331531
+[7] https://en.wikipedia.org/wiki/Coding_conventions#Common_conventions
+[8] https://es.wikipedia.org/wiki/Arquitectura_orientada_a_servicios
+[9] https://es.wikipedia.org/wiki/Representational_State_Transfer

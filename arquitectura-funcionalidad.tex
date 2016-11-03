@@ -1,0 +1,58 @@
+\chapter{Arquitectura de Chasqui}
+
+\section{Componentes de alto nivel}
+La plataforma Chasqui cuenta con los siguientes componentes:
+
+\begin{description}
+\item[\App] Esta aplicación fue desarrolladad en NodeJs... y se conecta al servidor a traves de ...
+
+
+\item[\Be] Esta aplicación fue desarrollada en Java...
+
+\item[\Bo] Esta aplicacion fue desarrollada en Zk...
+
+\end{description}
+
+
+\section{Funcionalidad}
+
+\subsection{\App}
+
+A través de la aplicación móvil se pueden navegar catálogos y productos de manera diferenciada para la ESS. Esto significa que la visualización de productos destaca algunas características de aquellos que tienen especial relación con el consumo responsable, como por ejemplo si el envase es retornable, reciclado o elaborado mediante un diseño sustentable. Además se visibilizan características de los emprendimientos o productores en relación a la ESS, como puede ser si el mismo es una empresa social, familiar o una cooperativa. 
+
+Se permite elaborar un pedido a través de la selección de los productos de un vendedor, indicando en todo momento si alcanzó el monto minimo para la compra. Una vez finalizado dicho pedido, es posible confirmarlo notificando al vendedor y al usuario con la fecha probable de entrega. A la hora de agregar un producto al pedido, se debe controlar si existe en stock, en cuyo caso se lo reserva por un tiempo determinado. Dicho tiempo se renueva con cada nuevo producto que se agrega al pedido
+
+Se notifica a los usuarios sobre las fechas de cierre de los pedidos. Esto se debe a que las comercializadoras suelen tener entregas periódicas cuyas fechas ya están estipuladas. 
+
+
+Se mantiene un historial de pedidos del usuario. Con la posibilidad de volver a realizar la una compra con los mismos productos de dicho pedido, facilitando de esta manera las compras frecuentes.
+
+Se fomenta la compra colectiva, a través de un mecanismo en el cual el usuario invita a otros usuarios a elaborar un pedido en común, a partir de un correo electrónico.
+
+Se permite realizar búsquedas simples y avanzadas de productos.
+
+
+
+
+\subsection{\Bo}
+
+Esta aplicación le permite a los usuarios vendedores:
+
+\begin{itemize}
+\item Alta, baja y modificación de catálogos
+\item Alta, baja y modificación de productores, con sus caracteristicas e imagenes.
+\item Alta, baja y modificación de productos, con sus categorías, caracteristicas, imágenes
+\item Administración de configuraciones del catálogo como las fechas de entrega
+\item Visualización de pedidos para facilitar la entrega.
+\end{itemize}
+
+
+
+\section{Diseño del servidor}
+
+\nota{mencionar
+\begin{itemize}
+\item capas, esto es: persistencia, controllers , servicios
+\item modelo de datos
+\end{itemize}
+}

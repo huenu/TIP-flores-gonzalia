@@ -1,0 +1,66 @@
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+%\usepackage{hyperref}
+\usepackage{fancyhdr}
+\usepackage{xcolor}
+\usepackage{url}
+
+\newcommand{\tpi}{Tecnicatura Universitaria en Programación Informática}
+\newcommand{\orga}{Organización de Computadoras}
+\newcommand{\ui}{Diseño de Interfaces de Usuario}
+\newcommand{\jorge}{Jorge Federico Flores}
+\newcommand{\damian}{Damian Eduardo Gonzalia}
+
+\hyphenation{ca-rre-ra}
+
+\newcommand{\ojo}[2]{{\large\verde{#1}}\footnote{#2}}
+%\newcommand{\ojo}[2]{#2}
+\definecolor{green}{rgb}{0,1,0}
+\definecolor{fucsia}{rgb}{0.6,0,0.5}
+\newcommand{\rojo}[1]{{\color{red}#1}}
+\newcommand{\verde}[1]{{\color{green}#1}}
+\newcommand{\fucsia}[1]{{\color{fucsia}#1}}
+
+\newcommand{\graf}[3][\textwidth]{
+\begin{figure}[h]
+\centerline{\includegraphics[width=#1]{#2}}
+\caption{#3}
+\label{#2}
+\end{figure}}
+
+\newcommand{\tabla}[3]{
+\begin{table}
+\begin{center}
+\begin{tabular}{#1}\hline
+#2
+\end{tabular}
+\caption{#3}
+\end{center}
+\end{table}
+}
+
+
+\newcommand{\code}[1]{\begin{small}\texttt{#1}\end{small}}
+
+
+\newcommand{\mensaje}[1]{\framebox{\parbox{0.9\textwidth}{\centerline{\code{#1}}}}}
+
+\hyphenation{de-sa-rro-lla-do-res}
+
+\newcommand{\parte}[1]{\chapter{#1}}
+
+
+\newcommand{\nota}[1]{{\color{red}#1}}
+
+%-----------------------------------Nombres
+\newcommand{\ch}{Chasqui}
+\newcommand{\be}{servidor}
+\newcommand{\Be}{Servidor}
+\newcommand{\app}{aplicación móvil}
+\newcommand{\App}{Aplicación móvil}
+\newcommand{\bo}{panel de administración}
+\newcommand{\Bo}{Panel de administración}
